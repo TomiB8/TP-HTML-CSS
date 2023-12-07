@@ -1,0 +1,23 @@
+
+.cuerpo{/* Body */
+    background-color: black;
+}
+.inireg{ /* Navegador Inicio Sesion + Registro */ 
+background-color: white;
+}
+.logo{ /* Barra Logo + Nombre de la empresa */
+color: white;
+border: 0 none;
+box-shadow: none;
+height: auto;
+margin: 0;
+padding: 0;
+width: auto !important;
+}
+
+.navhome{ /* Navegador Home + Tienda + Contactanos */
+background-color: white;
+
+}
+
+
