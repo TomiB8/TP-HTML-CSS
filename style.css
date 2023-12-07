@@ -19,14 +19,20 @@ padding: 0;
 width: auto !important;
 text-align: center;
 }
-
 .navhome{ /* Navegador Home + Tienda + Contactanos */
     background-color: rgb(241, 241, 241);
 
+} 
+
+@media(min-width:501px){
+    .jd{
+        width: 40%;
+    }
+}
+@media(min-width:801px){
+    .jd{
+        width: 40%;
+    }
 }
 
-@media screen {
-    501px - 800px
-    801px - 1200
-} 
 
