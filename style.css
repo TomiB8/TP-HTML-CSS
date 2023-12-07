@@ -7,7 +7,7 @@
     background-color: black;
 }
 .inireg{ /* Navegador Inicio Sesion + Registro */ 
-background-color: white;
+    background-color: rgb(241, 241, 241);
 }
 .logo{ /* Barra Logo + Nombre de la empresa */
 color: rgb(255, 0, 0);
@@ -20,8 +20,12 @@ width: auto !important;
 }
 
 .navhome{ /* Navegador Home + Tienda + Contactanos */
-background-color: white;
+    background-color: rgb(241, 241, 241);
 
 }
 
+@media screen {
+    501px - 800px
+    801px - 1200
+} 
 
