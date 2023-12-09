@@ -24,15 +24,6 @@ text-align: center;
 
 } 
 
-@media(min-width:501px){
-    .jd{
-        width: 40%;
-    }
-}
-@media(min-width:801px){
-    .jd{
-        width: 40%;
-    }
-}
+
 
 
