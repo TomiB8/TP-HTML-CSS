@@ -1,0 +1,96 @@
+body{
+    margin: 0%;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 1px 1px;
+    font-size: 20px;
+    font-family: calibri;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.redessociales{
+    color: red;
+    text-align: center;
+}
+
+.redessociales i{
+    margin: 50px 10px;
+}
+
+.form{
+    text-align: center;
+    padding: 5px;
+    color: red;
+}
+
+.contacto .formulario-caja{
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    font-family: calibri;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #ff0000;
+}
+
+.contacto .formulario-txt{
+    width: 300px;
+    max-width: 300px;
+    height: 220px;
+    max-height: 220px;
+    padding: 10px;
+    height: 150px;
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+    font-family: calibri;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ff0000;
+}
+
+.form .button{
+    width: 25%;
+    height: 30px;
+    margin: 20px;
+    font-size: 15px;
+    font-family: calibri;
+    border: 0px solid #ff0000 ;
+    background-color: rgb(255, 0, 0);
+    margin-left: 45px;
+    border-radius: 6px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.contactar{
+    margin: 0 10px;
+    color: #ff0000;
+}
+
+.derechos{
+    background-color: rgb(255, 0, 0);
+    padding: 1px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+@media(max-width: 820px){
+    footer{
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        padding: 1px 1px;
+        font-size: 20px;
+        font-family: calibri;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
