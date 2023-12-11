@@ -4,7 +4,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .cuerpo{/* Body */
-    background-color: black;
+    background-color: rgb(241, 241, 241);
 }
 .inireg{ /* Navegador Inicio Sesion + Registro */ 
     background-color: rgb(241, 241, 241);
@@ -21,7 +21,6 @@ text-align: center;
 }
 .navhome{ /* Navegador Home + Tienda + Contactanos */
     background-color: rgb(241, 241, 241);
-
 } 
 
 
