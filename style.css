@@ -30,9 +30,8 @@ position: relative;
 top: 5%;
 bottom: 0;
 right: 0;
-left: 50px;
+left: 30px;
 display: block;
-width: 20%;
 height: 100%;
 filter: drop-shadow( 0px 0px 30px rgb(241, 241, 241));
 }
@@ -43,7 +42,7 @@ bottom: 8px;
 right: 0;
 left: 0px;
 display: block;
-width: 80%;
+width: 83%;
 height: 100%;
 }
 .logo .nombrelogo a{/* Nombre Marca */
@@ -79,16 +78,10 @@ background-color: rgb(241, 241, 241);
     box-shadow: 0px 0px 10px rgb(255, 140, 0);
 }
 
-
-
-
-
-
-
 /* @media screen and (min-width: 501px) {
     .logo {
-    width: 45%;
-    /* display: inline-block;
+    width: 100%;
+    display: inline-block;
     }
     }
     @media screen and (min-width: 801px) {
