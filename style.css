@@ -1,13 +1,21 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+padding: 0px;
+margin: 0px;
+font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .cuerpo{/* Body */
-    background-color: rgb(241, 241, 241);
+background-color: rgb(241, 241, 241);
 }
-.inireg{ /* Navegador Inicio Sesion + Registro */ 
-    background-color: rgb(241, 241, 241);
+.inireg{ /* Navegador Inicio Sesion + Registro */
+background-color: rgb(241, 241, 241);
+display: flex;
+justify-content:flex-end;
+}
+.inireg a{
+color: black;
+}
+.inireg a:hover{
+color: rgb(255, 140, 0);
 }
 .logo{ /* Barra Logo + Nombre de la empresa */
 display: flex;
@@ -42,21 +50,38 @@ color: rgb(255, 0, 0);
 text-align: center;
 text-decoration: none;
 cursor: pointer;
+text-shadow: 0px 0px 30px rgb(241, 241, 241);
 }
 .logo .nombrelogo a h1{
 font-size: 40px;
 }
 .logo .nombrelogo h4{
-color: aqua;
+color:  rgb(255, 140, 0);
 font-size: 20px;
 text-align: center;
+}
+.navhome{ /* Navegador Home + Tienda + Contactanos */
+background-color: rgb(241, 241, 241);
+}
+.navbar .nav-item a:hover{
+    color: rgb(255, 140, 0);
+}
+.navbar .btn{
+    color: rgb(255, 140, 0);
+    border-color: rgb(255, 140, 0);
+    box-shadow: 1px 1px 3px black;
+}
+.navbar .d-flex button:hover{
+    color: black;
+    background-color: rgb(255, 140, 0);
+    border-color: black;
+    box-shadow: 0px 0px 10px rgb(255, 140, 0);d;
 }
 
 
 
-.navhome{ /* Navegador Home + Tienda + Contactanos */
-    background-color: rgb(241, 241, 241);
-} 
+
+
 
 
 /* @media screen and (min-width: 501px) {
