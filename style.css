@@ -10,14 +10,22 @@
     background-color: rgb(241, 241, 241);
 }
 .logo{ /* Barra Logo + Nombre de la empresa */
-color: rgb(255, 0, 0);
-border: 0 none;
-box-shadow: none;
+display: flex;
 height: auto;
 margin: 0;
 padding: 0;
 width: auto !important;
-text-align: center;
+background-color: black;
+}
+.logo .isologo{ /* Isologo */
+display: block;
+border: 20px;
+border-color: red;
+margin: 20px 50px 20px 50px;
+}
+.logo .nombrelogo{/* Nombre Marca */
+    color: rgb(255, 0, 0);
+    text-align: center;
 }
 .navhome{ /* Navegador Home + Tienda + Contactanos */
     background-color: rgb(241, 241, 241);
