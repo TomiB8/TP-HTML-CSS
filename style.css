@@ -14,22 +14,62 @@ display: flex;
 height: auto;
 margin: 0;
 padding: 0;
-width: auto !important;
+width: auto;
 background-color: black;
 }
 .logo .isologo{ /* Isologo */
+position: relative;
+top: 5%;
+bottom: 0;
+right: 0;
+left: 50px;
 display: block;
-border: 20px;
-border-color: red;
-margin: 20px 50px 20px 50px;
+width: 20%;
+height: 100%;
 }
-.logo .nombrelogo{/* Nombre Marca */
-    color: rgb(255, 0, 0);
-    text-align: center;
+.logo .nombrelogo{
+position: relative;
+top: 8px;
+bottom: 8px;
+right: 0;
+left: 0px;
+display: block;
+width: 80%;
+height: 100%;
 }
+.logo .nombrelogo a{/* Nombre Marca */
+color: rgb(255, 0, 0);
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+}
+.logo .nombrelogo a h1{
+font-size: 40px;
+}
+.logo .nombrelogo h4{
+color: aqua;
+font-size: 20px;
+text-align: center;
+}
+
+
+
 .navhome{ /* Navegador Home + Tienda + Contactanos */
     background-color: rgb(241, 241, 241);
 } 
+
+
+/* @media screen and (min-width: 501px) {
+    .logo {
+    width: 45%;
+    /* display: inline-block;
+    }
+    }
+    @media screen and (min-width: 801px) {
+    .logo {
+    width: 30%;
+    }
+    } */
 
 
 

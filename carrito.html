@@ -25,24 +25,63 @@
   
 </head>
 <body>
-        <header>
-            <nav class="Hometienda">
-              <div class="logo">
-                <a href="index.html">
-                  <h1><img src="Recursos/icon.png" alt="Logo">
-                    FullStack Games
-                  </h1>
-                </a>
-                
-                
-              </div>
-              <!-- en duda <ul class="justify-content-left"></ul> -->
-                <ul class="justify-content-left"> 
-                <a href="index.html">Home</a>
-                    <a href="tienda.html">Volver a tienda</a>  
-                  </ul>             
-                </nav>
-        </header> 
+<header>
+<!--Iniciar Sesión // Registrarse-->
+    <nav class="inireg">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="inisesion.html">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carrito.html"><i class='bx bxs-cart'></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!--Logo // Nombre empresa-->
+    <div class="logo">
+        <!-- Isologo -->
+        <div class="isologo">
+            <a href="index.html"><img src="Recursos/logo.png" alt="Isologo"></a>
+    </div>
+    <!-- Nombre empresa -->
+    <div class="nombrelogo">
+        <a href="index.html"><h1>FullStack Games</h1></a>
+        <h4>Entretenimiento Asegurado</h4>
+    </div>
+</div>
+<!-- Navegador Home + Tienda + Contactanos -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tienda.html">Juegos</li>
+                            <li><a class="dropdown-item" href="#">Consolas</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Contactanos</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</header>
         <div class="datos de envio"> 
 
         <h3>Ingresa tus datos</h3>
