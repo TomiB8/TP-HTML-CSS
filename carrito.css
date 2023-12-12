@@ -1,0 +1,23 @@
+.envio{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    font-size:large;
+    background-color:firebrick;
+    height: 40%;
+    margin-bottom: 10px;
+    padding: 30px;
+    box-shadow: blue 5px;
+
+
+
+    }
+
+.sugerencias{
+    display: flex;
+    justify-content:left;
+    box-sizing: 10px;
+    align-items:first baseline;
+    margin-top: 20px;
+}
