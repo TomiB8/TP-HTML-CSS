@@ -41,7 +41,7 @@
     </nav>
     <!--Logo // Nombre empresa-->
     <div class="logo">
-        <!-- Isologo -->
+        
         <div class="isologo">
             <a href="index.html"><img src="Recursos/logo.png" alt="Isologo"></a>
     </div>
@@ -81,61 +81,88 @@
     </div>
 </nav>
 </header>
-<div class="datos de envio"> 
 
-        <h3>Ingresa tus datos</h3>
-        <form action="" method="post">
-            <p>
-                <label for="nom">Nombre</label>
-                <input type="text" name="Nombre" />
-            </p>
-            
-                <label for="Ape">Apellido</label>
-                <input type="text" name="Apellido" />
-            <p>
-          
-                <label for="Cal">Calle</label>
-                <input type="text" name="Calle" />
-            </p>
-            <p>
-        <label for="Altu">Altura</label>
-        <input type="number" name="Altura" />
-            </p>
-          <p>
-            <label for="CP">Código Postal</label>
-            <input type="number" name="Codpostal">
-          </p>
-          <button type="button" >Enviar</button>
-        </form>
+
+<div class="formulario">
+  <h5>Ingresá tus datos</h5>
+  <br>
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Ciudad</label>
+      <select id="inputState" class="form-select">
+        <option selected>
+          <option>Capital Federal</option>
+          <option>Córdoba Capital</option>
+          <option>Rosario</option>
+          <option>Bariloche</option>
+          <option>Bahía Blanca</option>
+        </option>
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Dirección</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="ej: Coronel Diaz">
+    </div>
+    <div class="col-md-6">
+      <label for="inputAddress2" class="form-label">Piso y departamento</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="ej: Pb 'A'">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Provincia</label>
+      <select id="inputState" class="form-select">
+          <option selected>
+          <option>Buenos Aires</option>
+          <option>Catamarca</option>
+          <option>Chaco</option>
+          <option>Chubut</option>
+          <option>Córdoba</option>
+          <option>Corrientes</option>
+          <option>Entre Ríos</option>
+          <option>Formosa</option>
+          <option>Jujuy</option>
+          <option>La Pampa</option>
+          <option>La Rioja</option>
+          <option>Mendoza</option>
+          <option>Misiones</option>
+          <option>Neuquén</option>
+          <option>Río Negro</option>
+          <option>Salta</option>
+          <option>San Juan</option>
+          <option>San Luis</option>
+          <option>Santa Cruz</option>
+          <option>Santa Fe</option>
+          <option>Santiago del Estero</option>
+          <option>Tierra del Fuego, Antártida e Islas del Atlántico Sur</option>
+          <option>Tucumán</option>
+        </option>
+      </select>
+  </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Código Postal</label>
+      <input type="text" class="form-control" id="inputZip" placeholder="ej: 1422">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Quiero recibir noticias
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
 </div>
-<section> 
-            <div id="carouselGames" class="carousel slide">
-              <h4><img src="Recursos/icon.png" alt="Logo">Sugerencias Full-Games</h4>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="Recursos/tienda/EldenRing.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Recursos/tienda/Battlefield.png class= "w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Recursos/tienda/Horizonpng.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
 
-</section>
-<aside>
 
-</aside>
+
+ 
 <!-- FOOTER -->
 <footer id="footer">
   <div class="redessociales">
@@ -164,7 +191,7 @@
   </div>
 </footer>
 <div class="derechos">
-  <p>&copy; 2023 "NOMBRE EMPRESA"</p>
+  <p>&copy; 2023 "Fullstack Games SRL"</p>
 </div>
 </body>
 </html>
