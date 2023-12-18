@@ -14,6 +14,7 @@
 <!-- Link de CSS Index -->
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="tienda.css">
 <!-- Link de Bootstrap -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <!-- Link de iconos de redes -->
@@ -22,103 +23,212 @@
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body class="cuerpo">
-<header>
-<!--Iniciar Sesión // Registrarse-->
-<nav class="inireg">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="inisesion.html">Iniciar Sesión</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="registro.html">Registrarse</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="carrito.html"><i class='bx bxs-cart'></i></a>
-        </li>
-    </ul>
-</nav>
-<!--Logo // Nombre empresa-->
-<div class="logo">
-<!-- Isologo -->
-    <div class="isologo">
-        <a href="index.html"><img src="Recursos/logo.png" alt="Isologo"></a>
-    </div>
-<!-- Nombre empresa -->
-    <div class="nombrelogo">
-        <a href="index.html"><h1>FullStack Games</h1></a>
-        <h4>Entretenimiento Asegurado</h4>
-    </div>
-</div>
-<!-- Navegador Home + Tienda + Contactanos -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="tienda.html">Juegos</li>
-                            <li><a class="dropdown-item" href="#">Consolas</a></li>
-                        </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#footer">Contactanos</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+<header id="kk">
+    <!--Iniciar Sesión // Registrarse-->
+    <nav class="inireg">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="inisesion.html">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registrarse</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="carrito.html"><i class='bx bxs-cart'></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!--Logo // Nombre empresa-->
+    <div class="logo">
+        <!-- Isologo -->
+        <div class="isologo">
+            <a href="index.html"><img src="Recursos/logo.png" alt="Isologo"></a>
         </div>
-    </div>
-</nav>
+        <!-- Nombre empresa -->
+        <div class="nombrelogo">
+            <a href="index.html"><h1>FullStack Games</h1></a>
+            <h4>Entretenimiento Asegurado</h4>
+            </div>
+        </div>
+        <!-- Navegador Home + Tienda + Contactanos -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tienda</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="tienda.html">Juegos</li>
+                                    <li><a class="dropdown-item" href="#">Consolas</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#footer">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
 </header> 
-<!-- 
 
-    * Tienda
+<section>
+    <h2>JUEGOS MAS ESPERADOS EN FULL STACK GAMES</h2>
+    <div class="container">
+        <div class="column">
+          <img src="Recursos/tienda/blue-protocol.jpg" alt="" class="img-1">
+        </div>
+        <div class="column">
+          <div class="descripcion">
+            <span class="span-1"><a href=""><strong>Blue protocol</strong> </a></span>
+            <span class="span-2">PC </span>
+            <span class="span-3">PS5</span>
+            <p><strong> <i>Blue Protocol</i></strong>, es el <strong>MMO de acción</strong> desarrollado por <strong>Bandai Namco</strong> para consolas como <strong>PS5 y Xbox Series</strong>, así como PC. Nos traslada a un mundo de fantasía y ciencia ficción en el que compartir experiencias con otros jugadores y vivir aventuras épicas.</p>
+            <p><strong>Género:</strong> MMORPG</p>
+            <p><a href=""><strong>Fecha de lanzamiento: </strong> Año 2024</a></p>
+          </div>
+        </div>
+        <div class="column">
+            <a href="carrito.html">
+            <button type="button" class="btn btn-danger">Comprar</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="column">
+          <img src="Recursos/tienda/beyond-good-.jpg" alt="" class="img-1">
+        </div>
+        <div class="column">
+          <div class="descripcion">
+            <span class="span-1"><a href=""><strong>Beyond Good & Evil 2 </strong> </a></span>
+            <span class="span-2">PC </span>
+            <span class="span-3">PS4</span>
+            <span class="span-2">XBOne</span>
+            <p>Beyond Good & Evil 2 para Xbox One es la esperada segunda parte de uno de los títulos de culto de la época de PS2. Iniciada para PlayStation 3, el juego supuestamente llegará a la nueva generación de máquinas, aunque su estado es un misterio y quizás nunca llegue a ver la luz.</p>
+            <p><strong>Género:</strong> Aventura de acción / Mundo abierto</p>
+            <p><a href=""><strong>Fecha de lanzamiento: </strong> Año 2024</a></p>
+          </div>
+        </div>
+        <div class="column">
+            <a href="carrito.html">
+                <button type="button" class="btn btn-danger">Comprar</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="column">
+          <img src="Recursos/tienda/metroid-prime-4.jpg" alt="" class="img-1">
+        </div>
+        <div class="column">
+          <div class="descripcion">
+            <span class="span-1"><a href=""><strong>Metroid Prime 4</strong> </a></span>
+            <span class="span-4">Switch</span>
+            <p><strong><i>Metroid Prime 4</i></strong>, la cuarta entrega de la saga Prime protagonizada por Samus Aran que salió en GameCube, Wii y Wii U a lo largo de los años, llegará a Nintendo Switch, desarrollada por Retro Studios. Se trata de un nuevo juego de acción y exploración en primera persona, en el que la protagonista tendrá que ir descubriendo los secretos de un buen número de planetas y alienígenas.</p>
+            <p><strong>Género:</strong> Metroidvania / Shooter en primera persona</p>
+            <p><a href=""><strong>Fecha de lanzamiento: </strong> Año 2024</a></p>
+          </div>
+        </div>
+        <div class="column">
+            <a href="carrito.html">
+                <button type="button" class="btn btn-danger">Comprar</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="column">
+          <img src="Recursos/tienda/star-citizen-.jpg" alt="" class="img-1">
+        </div>
+        <div class="column">
+          <div class="descripcion">
+            <span class="span-1"><a href=""><strong>Star Citizen</strong> </a></span>
+            <span class="span-2">PC </span>
+            <p><strong>Star Citizen es un videojuego de simulación espacial</strong> para PC, aunque se desconoce si saldrá en PS4 o Xbox. El juego está siendo desarrollado por el estudio <strong>Cloud Imperium Games</strong> con su diseñador: Chris Roberts a la cabeza, conocido por ser el creador de los exitosos Wing Commander y Freelancer.</p>
+            <p><strong>Género:</strong> Acción / Simulador espacial</p>
+            <p><a href=""><strong>Fecha de lanzamiento: </strong> Año 2024</a></p>
+          </div>
+        </div>
+        <div class="column">
+            <a href="carrito.html">
+                <button type="button" class="btn btn-danger">Comprar</button></a>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div class="column">
+          <img src="Recursos/tienda/granblue-fantasy-relink-.jpg" alt="" class="img-1">
+        </div>
+        <div class="column">
+          <div class="descripcion">
+            <span class="span-1"><a href=""><strong>Granblue Fantasy: Relink</strong> </a></span>
+            <span class="span-2">PC </span>
+            <span class="span-3">PS4</span>
+            <span class="span-3">PS5</span>
+            <p><strong><i>Granblue Fantasy: Relink </i></strong>es un <strong>videojuego de rol y acción japonés</strong>, un <i>spinoff</i> de la saga <i>Granblue Fantasy</i>, un exitoso gacha para móviles. Desarrollado por <strong>Cygames</strong>, llegará <strong>PlayStation 4, PlayStation 5 y PC</strong>, nos llevará a vivir una gran aventura a lo largo y ancho de varias islas flotantes, sumergiéndonos en una épica historia cargada de personajes carismáticos y criaturas fantásticas.</p>
+            <p><strong>Género:</strong>Action-RPG</p>
+            <p><a href=""><strong>Fecha de lanzamiento: </strong> Año 2024</a></p>
+          </div>
+        </div>
+        <div class="column">
+            <a href="carrito.html">
+                <button type="button" class="btn btn-danger">Comprar</button></a>
+        </div>
+      </div>
+      <hr>
+</section>
 
--->
+
+
+
+
+
+
+
+
+<!-- FLECHA UP NAV -->
+<div class="flchaup">
+    <a href="#kk" class="enlaceflecha">
+        <i class='bx bx-up-arrow-circle'></i>
+    </a>    
+</div>
 
 <!-- FOOTER -->
 <footer id="footer">
-            <div class="redessociales">
-                <h3>Siguenos en</h3>
-                <li><i class="fa-brands fa-square-instagram fa-2xl"></i></li>
-                <li><i class="fa-brands fa-facebook fa-2xl"></i></li>
-                <li><i class="fa-brands fa-twitter fa-2xl"></i></li>
+    <div class="redessociales">
+        <h3>Siguenos</h3>
+        <li><i class="fa-brands fa-square-instagram"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-whatsapp"></i></li>
+    </div>
+    <div class="form">
+        <h3>Contactanos</h3>
+        <div class="contacto">
+            <label for="ingreso-de-email"></label>
+            <input type="email" class="formulario-caja" id="ingreso-de-email" placeholder="E-mail">
+        </div>
+            <div class="contacto">
+                <label for="ingreso-de-texto"></label><br>
+                <textarea class="formulario-txt" maxlength="500" id="ingreso-de-texto" placeholder="Texto (Max 500)"></textarea>
             </div>
-        
-            <div class="form">
-                <h3>Contacto</h3>
-                <div class="contacto">
-                    <label for="ingreso-de-email"></label><br>
-                    <input type="email" class="formulario-caja" id="ingreso-de-email" placeholder="E-mail">
-                </div>
-
-                <div class="contacto">
-                    <label for="ingreso-de-texto"></label><br>
-                    <textarea class="formulario-txt" maxlength="500" id="ingreso-de-texto" placeholder="Texto(Max 500)"></textarea>
-                </div>
-        
-                <input class="button" type="submit" value="Enviar">
-
-            </div>
-            
-            <div class="contactar">
-                <h3>TELÉFONO</h3>
-                <i class="fa-brands fa-whatsapp"> 11-5436-5436 </i> 
-                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d948.5248666866837!2d-58.38409100138968!3d-34.60589335312377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbae26bc91c9%3A0x46f4081506694d65!2sThe%20Game%20House!5e0!3m2!1ses-419!2sar!4v1702156364622!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>        
-            </div>
-            
+        <input class="button" type="submit" value="Enviar">
+    </div>
+    <div class="contactar">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6567.915963853934!2d-58.383902000000006!3d-34.605224!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbae26bc91c9%3A0x46f4081506694d65!2sThe%20Game%20House!5e0!3m2!1ses-419!2sar!4v1702790973300!5m2!1ses-419!2sar" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+    </div>    
 </footer>
+
+<!-- Derechos de Autor -->
 <div class="derechos">
-            <p>&copy; 2023 "NOMBRE EMPRESA"</p>
+    <p>&copy; <b>2023 FullStack - Videojuegos -</b></p>
 </div>
 
 <!-- JS Bootstrap -->
